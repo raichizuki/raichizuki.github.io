@@ -206,14 +206,3 @@ mark {
     box-shadow: 0px 0px 5px #b8b8b8;
     align-items: center;
 }
-
-@media (max-width: 1000px) {
-  body {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "header"
-      "main"
-      "aside"
-      "footer";
-  }
-}
