@@ -8,6 +8,17 @@
     src: url(Kitto-PersonalUse.otf);
 }
 
+@media (max-width: 600px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "aside"
+      "footer";
+  }
+}
+
 body {
     margin: 0;
     padding: 50px;
